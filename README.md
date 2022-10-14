@@ -16,7 +16,9 @@
 
 
 ### DATA GATHERING:
->In this phase, three datasets were indicated to be necesary for the analysis. One was provided beforehand (twitter_archive_enhanced.csv), and all that was needed to be done was to read it in as a CSV file into a dataframe. The second file (image-predictions.tsv), was to be downloaded programmtically using the 'requests' library and then stored into a file. This time though, it was required to specify the delimiter as an argument because tsv files are separated using tabs instead of commas like in a csv file.
+>In this phase, three datasets were indicated to be necesary for the analysis. One was provided beforehand (twitter_archive_enhanced.csv), and all that was needed to be done was to read it in as a CSV file into a dataframe.
+
+>The second file (image-predictions.tsv), was to be downloaded programmtically using the 'requests' library and then stored into a file. This time though, it was required to specify the delimiter as an argument because tsv files are separated using tabs instead of commas like in a csv file.
 
 >The third file required requesting access to Twitter's API. Unfortunately I wasn't granted access on time to the API so I used another alternative provided by Udacity. This alternative involved downloading an already provided text file (tweet-json.text), and then reading the file line by line into a pandas dataframe.
 
